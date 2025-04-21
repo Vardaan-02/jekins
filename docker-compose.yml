@@ -13,4 +13,4 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-    command: npm start
+    command: node index.js
