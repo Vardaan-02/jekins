@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    container_name: node-app
+    container_name: jenkin-ci-cd-node
     build:
       context: .
       dockerfile: Dockerfile
